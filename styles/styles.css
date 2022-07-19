@@ -5,8 +5,19 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #f3f1ff;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
 .container{
     background-color: #ffffff;
+    width: 878px;
+    padding: 34px;
+}
+/* top players style */
+.section-title{
+    color: #562eff;
+    font-size: 24px;
 }
 .players{
     display: grid;
@@ -20,4 +31,7 @@ body{
 .player img{
     height: 58px;
     width: 58px;
+}
+.player-name{
+    margin-left: 17px;
 }
