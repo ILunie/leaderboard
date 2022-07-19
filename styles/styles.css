@@ -14,8 +14,11 @@ main{
     width: 878px;
     padding: 34px;
 }
+.top-players{
+    margin-bottom: 30px;
+}
 hr{
-    border: 2px solid #d1d1d1;
+    border: 1px solid #d1d1d1;
 }
 /* top players style */
 .section-title{
